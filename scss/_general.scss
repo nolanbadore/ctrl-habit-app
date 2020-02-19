@@ -1,11 +1,3 @@
-body {
-	background-color: #272343;
-}
-
-h1, h2, h3, h4, h5, h6, p, button {
-	font-family: 'Bahnschrift Regular';
-}
-
 @font-face {
     font-family: 'Bahnschrift Regular';
     font-style: normal;
@@ -96,3 +88,12 @@ h1, h2, h3, h4, h5, h6, p, button {
     font-weight: normal;
     src: local('Bahnschrift Regular'), url('BAHNSCHRIFT.woff') format('woff');
 }
+
+body {
+	background-color: #272343;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+	font-family: 'Bahnschrift Regular';
+}
+
