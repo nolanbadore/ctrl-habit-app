@@ -3,7 +3,6 @@
 	grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
     overflow: hidden;
-    background-color: #1F1C37;
     padding: 4rem 0 2rem 0;
 
     img {
@@ -28,7 +27,7 @@
 		h3 {
 			color: #EF3D6D;
 			font-size: 1.75vw;
-			font-weight: 400;
+			font-weight: 100;
 			font-family: 'Bahnschrift';
 		}
 		p {
@@ -37,6 +36,39 @@
 			font-weight: 100;
 			font-family: 'Bahnschrift';
 			margin-top: -1rem;
+		}
+    }
+}
+
+.benefit {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    overflow: hidden;
+    padding: 4rem 0 4rem 0;
+    background-color: #1F1C37;
+
+    h1 {
+    	color: #BAE8E8;
+    	grid-row: 1 / span 6;
+		grid-column: 2 / span 5;
+		font-size: 8vw;
+		align-self: center;
+    	justify-self: center;
+    	font-weight: 900;
+    	font-family: 'Bahnschrift';
+    }
+
+    section {
+    	grid-row: 1 / span 6;
+		grid-column: 7 / span 5;
+		align-self: center;
+		
+
+		h3 {
+			font-family: 'Bahnschrift';
+    		color: #EF3D6D;
+    		font-weight: 100;
 		}
     }
 }
@@ -54,7 +86,7 @@
 			}
 
 			h3 {
-				font-size: 4.5vw;
+				font-size: 4vw;
 			}
 
 			p {
@@ -70,4 +102,27 @@
 			order: 2;
 		}
 	}
+
+	.benefit {
+		grid-template-rows: repeat(5, 1fr);
+		padding: 0;
+	    h1 {
+	    	grid-row: 1 / span 2;
+			grid-column: 2 / span 10;
+			font-size: 18vw;
+	    }
+
+	    section {
+	    	grid-row: 2 / span 4;
+			grid-column: 2 / span 10;
+			align-self: center;
+			font-size: 3.5vw;
+			
+			h3 {
+				font-weight: 100;
+				font-family: 'Bahnschrift';
+			}
+	    }
+}
+
   }
