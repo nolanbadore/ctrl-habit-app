@@ -15,7 +15,7 @@ header {
 			font-weight: 100;
 			text-align: center;
 			letter-spacing: 4px;
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
 			margin-top: .5rem;
 		}
 
@@ -23,11 +23,11 @@ header {
 			color: #BAE8E8;
 			font-size: 2vw;
 			font-weight: 100;
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
 		}
 
 		button {
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
 			width: 12rem;
 			height: 3rem;
 			background-color: #BAE8E8;
@@ -66,7 +66,7 @@ header {
 			}
 
 			button {
-				font-family: 'Bahnschrift';
+				font-family: din-2014, sans-serif;
 				width: 50vw;
 				height: 5vh;
 				font-size: .7rem;

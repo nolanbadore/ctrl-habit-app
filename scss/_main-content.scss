@@ -20,7 +20,7 @@
 			color: #BAE8E8;
 			font-size: 8vw;
 			font-weight: 900;
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
 			margin: 0;
 		}
 
@@ -28,13 +28,13 @@
 			color: #EF3D6D;
 			font-size: 1.75vw;
 			font-weight: 100;
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
 		}
 		p {
 			color: #BAE8E8;
 			font-size: 1.25vw;
 			font-weight: 100;
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
 			margin-top: -1rem;
 		}
     }
@@ -56,7 +56,7 @@
 		align-self: center;
     	justify-self: center;
     	font-weight: 900;
-    	font-family: 'Bahnschrift';
+    	font-family: din-2014, sans-serif;
     }
 
     section {
@@ -66,7 +66,7 @@
 		
 
 		h3 {
-			font-family: 'Bahnschrift';
+			font-family: din-2014, sans-serif;
     		color: #EF3D6D;
     		font-weight: 100;
 		}
@@ -120,7 +120,7 @@
 			
 			h3 {
 				font-weight: 100;
-				font-family: 'Bahnschrift';
+				font-family: din-2014, sans-serif;
 			}
 	    }
 }
